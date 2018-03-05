@@ -1,3 +1,7 @@
+###########################################
+# Copy the following code to Alteryx R tool
+###########################################
+
 data <- read.Alteryx("#1", mode="data.frame")
 rowNo <- nrow(data)
 radius <- 1000
